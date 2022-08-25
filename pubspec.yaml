@@ -1,0 +1,38 @@
+name: wstravel
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  flutter_native_splash: ^2.2.7
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/img/
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#155E9F"
+  image: assets/img/text.png
+  # branding: assets/img/text.png
+  ios: false
+  web: false
+
+  android_12:
+    color: "#155E9F"
+    image: assets/img/text.png
+    # branding: assets/img/text.png
+    ios: false
+    web: false
+
